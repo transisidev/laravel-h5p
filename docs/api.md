@@ -54,7 +54,7 @@ $success = $lrs->sendStatement($statement);
 ### H5pContent
 
 ```php
-use Aditya\LaravelH5P\Eloquents\H5pContent;
+use Transisi\LaravelH5P\Eloquents\H5pContent;
 
 // Get all content
 $contents = H5pContent::all();
@@ -66,7 +66,7 @@ $content = H5pContent::with('results')->find($id);
 ### H5pResult
 
 ```php
-use Aditya\LaravelH5P\Eloquents\H5pResult;
+use Transisi\LaravelH5P\Eloquents\H5pResult;
 
 // Get user results
 $results = H5pResult::where('user_id', $userId)->get();

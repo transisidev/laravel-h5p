@@ -1,5 +1,5 @@
 {
-    "name": "aditya170700/laravel-h5p",
+    "name": "transisidev/laravel-h5p",
     "description": "H5P Plugin for Laravel platform - Updated for Laravel 12",
     "type": "library",
     "authors": [
@@ -13,7 +13,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Aditya\\LaravelH5P\\": "src/LaravelH5p"
+            "Transisi\\LaravelH5P\\": "src/LaravelH5p"
         }
     },
     "require": {
@@ -31,10 +31,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Aditya\\LaravelH5P\\LaravelH5pServiceProvider"
+                "Transisi\\LaravelH5P\\LaravelH5pServiceProvider"
             ],
             "aliases": {
-                "LaravelH5p": "Aditya\\LaravelH5P\\Facades\\LaravelH5p"
+                "LaravelH5p": "Transisi\\LaravelH5P\\Facades\\LaravelH5p"
             }
         }
     }

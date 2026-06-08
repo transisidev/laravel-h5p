@@ -10,7 +10,7 @@
  *
  */
 
-namespace Aditya\LaravelH5P\Storages;
+namespace Transisi\LaravelH5P\Storages;
 
 use H5PFileStorage;
 use Illuminate\Support\Facades\Log;

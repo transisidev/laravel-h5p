@@ -10,10 +10,10 @@
  *
  */
 
-namespace Aditya\LaravelH5P\Repositories;
+namespace Transisi\LaravelH5P\Repositories;
 
 use DB;
-use Aditya\LaravelH5P\Eloquents\H5pLibrariesHubCache;
+use Transisi\LaravelH5P\Eloquents\H5pLibrariesHubCache;
 use H5PEditorAjaxInterface;
 use Illuminate\Support\Facades\Auth;
 

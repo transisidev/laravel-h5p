@@ -10,12 +10,12 @@
  *
  */
 
-namespace Aditya\LaravelH5P\Storages;
+namespace Transisi\LaravelH5P\Storages;
 
 use App;
 use DB;
-use Aditya\LaravelH5P\Eloquents\H5pLibrary;
-use Aditya\LaravelH5P\Eloquents\H5pTmpfile;
+use Transisi\LaravelH5P\Eloquents\H5pLibrary;
+use Transisi\LaravelH5P\Eloquents\H5pTmpfile;
 use H5peditorStorage;
 
 /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Aditya\LaravelH5P\Http\Controllers;
+namespace Transisi\LaravelH5P\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

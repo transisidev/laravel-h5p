@@ -1,6 +1,6 @@
 <?php
 
-namespace Aditya\LaravelH5P\Facades;
+namespace Transisi\LaravelH5P\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

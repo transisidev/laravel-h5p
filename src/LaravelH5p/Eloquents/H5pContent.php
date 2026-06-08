@@ -1,6 +1,6 @@
 <?php
 
-namespace Aditya\LaravelH5P\Eloquents;
+namespace Transisi\LaravelH5P\Eloquents;
 
 use App\User;
 use DB;

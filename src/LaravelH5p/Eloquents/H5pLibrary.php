@@ -1,6 +1,6 @@
 <?php
 
-namespace Aditya\LaravelH5P\Eloquents;
+namespace Transisi\LaravelH5P\Eloquents;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;

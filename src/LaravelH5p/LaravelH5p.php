@@ -10,12 +10,12 @@
  *
  */
 
-namespace Aditya\LaravelH5P;
+namespace Transisi\LaravelH5P;
 
-use Aditya\LaravelH5P\Repositories\EditorAjaxRepository;
-use Aditya\LaravelH5P\Repositories\LaravelH5pRepository;
-use Aditya\LaravelH5P\Storages\EditorStorage;
-use Aditya\LaravelH5P\Storages\LaravelH5pStorage;
+use Transisi\LaravelH5P\Repositories\EditorAjaxRepository;
+use Transisi\LaravelH5P\Repositories\LaravelH5pRepository;
+use Transisi\LaravelH5P\Storages\EditorStorage;
+use Transisi\LaravelH5P\Storages\LaravelH5pStorage;
 use H5PContentValidator;
 use H5PCore;
 //use H5PDevelopment;

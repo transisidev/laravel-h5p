@@ -1,10 +1,10 @@
 <?php
 
-namespace Aditya\LaravelH5P\Http\Controllers;
+namespace Transisi\LaravelH5P\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Aditya\LaravelH5P\Eloquents\H5pContent;
-use Aditya\LaravelH5P\Events\H5pEvent;
+use Transisi\LaravelH5P\Eloquents\H5pContent;
+use Transisi\LaravelH5P\Events\H5pEvent;
 use H5pCore;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;

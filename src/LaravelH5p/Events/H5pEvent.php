@@ -10,9 +10,9 @@
  *
  */
 
-namespace Aditya\LaravelH5P\Events;
+namespace Transisi\LaravelH5P\Events;
 
-use Aditya\LaravelH5P\Eloquents\H5pEventLog;
+use Transisi\LaravelH5P\Eloquents\H5pEventLog;
 use H5PEventBase;
 use Illuminate\Support\Facades\Auth;
 

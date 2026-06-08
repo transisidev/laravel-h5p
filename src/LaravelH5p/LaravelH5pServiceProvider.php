@@ -1,14 +1,14 @@
 <?php
 
-namespace Aditya\LaravelH5P;
+namespace Transisi\LaravelH5P;
 
-use Aditya\LaravelH5P\Commands\MigrationCommand;
-use Aditya\LaravelH5P\Commands\ResetCommand;
-use Aditya\LaravelH5P\Console\Commands\InstallCommand;
-use Aditya\LaravelH5P\Console\Commands\PublishCommand;
-use Aditya\LaravelH5P\Console\Commands\CleanupCommand;
-use Aditya\LaravelH5P\Console\Commands\StatusCommand;
-use Aditya\LaravelH5P\Helpers\H5pHelper;
+use Transisi\LaravelH5P\Commands\MigrationCommand;
+use Transisi\LaravelH5P\Commands\ResetCommand;
+use Transisi\LaravelH5P\Console\Commands\InstallCommand;
+use Transisi\LaravelH5P\Console\Commands\PublishCommand;
+use Transisi\LaravelH5P\Console\Commands\CleanupCommand;
+use Transisi\LaravelH5P\Console\Commands\StatusCommand;
+use Transisi\LaravelH5P\Helpers\H5pHelper;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
