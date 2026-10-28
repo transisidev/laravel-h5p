@@ -16,7 +16,6 @@ Route::group(['middleware' => ['web']], function () {
         // ajax
         Route::match(['GET', 'POST'], 'ajax/libraries', 'Transisi\LaravelH5P\Http\Controllers\AjaxController@libraries')->name('h5p.ajax.libraries');
         Route::get('ajax', 'Transisi\LaravelH5P\Http\Controllers\AjaxController')->name('h5p.ajax');
-        Route::get('ajax/libraries', 'Transisi\LaravelH5P\Http\Controllers\AjaxController@libraries')->name('h5p.ajax.libraries');
         Route::get('ajax/single-libraries', 'Transisi\LaravelH5P\Http\Controllers\AjaxController@singleLibrary')->name('h5p.ajax.single-libraries');
         Route::match(['GET', 'POST'], 'ajax/content-type-cache', 'Transisi\LaravelH5P\Http\Controllers\AjaxController@contentTypeCache')->name('h5p.ajax.content-type-cache');
         Route::match(['GET', 'POST'], 'ajax/content-hub-metadata-cache', 'Transisi\LaravelH5P\Http\Controllers\AjaxController@contentHubMetadataCache')->name('h5p.ajax.content-hub-metadata-cache');
