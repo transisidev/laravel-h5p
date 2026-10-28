@@ -1,6 +1,6 @@
 {
     "name": "transisidev/laravel-h5p",
-    "description": "H5P Plugin for Laravel platform - Updated for Laravel 12",
+    "description": "H5P Plugin for Laravel platform - Updated for Laravel 12 and 13",
     "type": "library",
     "authors": [
         {
@@ -18,7 +18,7 @@
     },
     "require": {
         "php": "^8.2",
-        "laravel/framework": "^12.0",
+        "laravel/framework": "^12.0|^13.0",
         "h5p/h5p-core": "^1.24",
         "h5p/h5p-editor": "^1.24",
         "guzzlehttp/guzzle": "^7.0"
@@ -26,7 +26,7 @@
     "require-dev": {
         "fakerphp/faker": "^1.23",
         "mockery/mockery": "^1.6",
-        "phpunit/phpunit": "^11.0"
+        "phpunit/phpunit": "^11.0|^12.0"
     },
     "extra": {
         "laravel": {

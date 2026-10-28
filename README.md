@@ -1,8 +1,8 @@
 # Laravel H5P
 
-H5P Plugin for Laravel platform - Updated for Laravel 12.
+H5P Plugin for Laravel platform - Updated for Laravel 12 & 13.
 
-[![Laravel](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com)
+[![Laravel](https://img.shields.io/badge/Laravel-12.x%20%7C%2013.x-red.svg)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.2%2B-blue.svg)](https://php.net)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
@@ -19,7 +19,7 @@ H5P Plugin for Laravel platform - Updated for Laravel 12.
 ## 📋 Requirements
 
 - PHP 8.2+
-- Laravel 12.x
+- Laravel 12.x or 13.x
 - PostgreSQL or MySQL
 - `h5p/h5p-core: ^1.24`
 - `h5p/h5p-editor: ^1.24`
